@@ -1,0 +1,15 @@
+#include <stdio.h>
+ 
+int main() {
+
+float ENTRADA;
+int i, POSITIVOS = 0;
+	for (i = 0; i < 6; i++){
+		scanf("%f", &ENTRADA);
+	if (ENTRADA > 0){
+    	POSITIVOS++;
+  }
+}
+		printf("%d valores positivos\n", POSITIVOS);
+    return 0;
+}
